@@ -33,27 +33,25 @@
             </div>
         </div>
         <!-- mainContainer block end -->
-    </div>
+    </div><br/><br/>
     <!-- footerContainer block start -->    
-    <footer id="footerContent">	
-	<div class="footer">
-		<div class="wrapperBloc">
+    <footer class="bg-dark text-white text-center footer" id="footerContent">	
+	<div class="col-12 col-lg-4">
+		<div class="bg-dark text-white text-center wrapperBloc">
 
-			<div class="miniWrapper reveal fade-bottomOne">				
-				<div class="direction">
-					<a href="">Contactez-nous</a><br><br>					
-					<a href="">Mention legal</a><br><br>
+			<div class="miniWrapper reveal fade-bottomOne" "col-6 col-lg-4">				
+				<div class="direction" "col-6 col-lg-4">
+					<a href="">Contactez-nous</a><br/>		
+					<a href="">Mention legal</a><br/>
 					<a href="">Politique de confidentialité</a>					
 				</div>
 			</div>				
 			</div>
 		</div>
 
-		<div class="line">
-
+		<div class="line" "col-6 col-lg-4">
 			<p>© Manager KGB / All Rights Reserved</p>
-
-			<div class="social">
+			<div class="social" "col-6 col-lg-4">
 				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 35 35" fill="none">
 					<path d="M35 17.5C35 27.1673 27.1673 35 17.5 35C15.6935 35 13.9577 34.7248 12.3206 34.2167C13.0333 33.0524 14.0988 31.1472 14.494 29.63C14.7056 28.8115 15.5806 25.4667 15.5806 25.4667C16.1522 26.5534 17.8175 27.4778 19.5887 27.4778C24.8669 27.4778 28.6704 22.623 28.6704 16.5897C28.6704 10.8105 23.9496 6.48488 17.881 6.48488C10.3306 6.48488 6.31552 11.5514 6.31552 17.0766C6.31552 19.6452 7.68448 22.8417 9.86492 23.8579C10.1966 24.0131 10.373 23.9425 10.4506 23.625C10.5071 23.3851 10.8034 22.1925 10.9375 21.6421C10.9798 21.4657 10.9587 21.3105 10.8175 21.1411C10.1048 20.2591 9.52621 18.6502 9.52621 17.1472C9.52621 13.2873 12.4476 9.55443 17.4294 9.55443C21.7268 9.55443 24.7399 12.4829 24.7399 16.6744C24.7399 21.4093 22.3478 24.6905 19.2359 24.6905C17.5212 24.6905 16.2298 23.2722 16.6462 21.5292C17.1401 19.4476 18.0927 17.2036 18.0927 15.7006C18.0927 14.3599 17.373 13.2379 15.877 13.2379C14.12 13.2379 12.7087 15.0514 12.7087 17.4859C12.7087 19.0383 13.2308 20.0827 13.2308 20.0827C13.2308 20.0827 11.502 27.4073 11.1845 28.7762C10.8317 30.2863 10.9728 32.4173 11.121 33.8004C4.61492 31.253 0 24.9163 0 17.5C0 7.83266 7.83266 0 17.5 0C27.1673 0 35 7.83266 35 17.5Z" fill="#E47610"/>
 				</svg>
@@ -68,7 +66,7 @@
 				</svg>
 			</div>
 
-			<a href="">© Made by Souleymane SANOGO</a>
+			<a class="col-6 col-lg-4" href="">© Made by Souleymane SANOGO</a>					
 		</div>
 	</div>
 </footer>

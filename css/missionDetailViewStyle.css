@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url("../assets/fonts/SF-Pro-Display-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayBlack";
+  src: url("../assets/fonts/SF-Pro-Display-Black.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayRegular";
+  src: url("../assets/fonts/SF-Pro-Display-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayThin";
+  src: url("../assets/fonts/SF-Pro-Display-Thin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainWrapper {
+  width: 1400px;
+  height: 787.5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+#navContent {
+  padding: 20px;
+}
+
+#navContent a img {
+  width: 37px;
+}
+
+#mainContainer {
+  margin: 0 20px;
+}
+
+#mainContainer h1 {
+  font-size: 32px;
+  font-family: SFProDisplayBlack;
+  text-align: center;
+  color: #3c3c3b;
+}
+
+#messageContent {
+  background-color: #e3a6a6;
+  border-radius: 5px;
+}
+
+#messageContent p {
+  margin: 48px 0;
+  padding: 15px 10px;
+  color: white;
+  font-size: 18px;
+  font-family: SFProDisplayRegular;
+}
+
+#mainContent {
+  width: 100%;
+  height: 492px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 90px 0;
+}
+
+#mainContent p {
+  font-size: 20px;
+  font-family: SFProDisplayThin;
+}
+
+.informationColumn {
+  width: 650px;
+}
+
+.informationColumn p:nth-child(2),
+.informationColumn p:nth-child(4),
+.informationColumn p:nth-child(6) {
+  margin: 25px 0;
+}
+
+.informationColumn p:nth-child(6),
+.informationColumn p:nth-child(7),
+#mainContent .informationColumn:last-child p:nth-child(4),
+#mainContent .informationColumn:last-child p:nth-child(5) {
+  height: 91px;
+}
+
+#mainContent .informationColumn:last-child p:first-child {
+  height: 122px;
+  overflow: hidden;
+  overflow-y: scroll;
+  text-align: justify;
+}
+
+.yellow {
+  color: #ffb527;
+}
+
+.black {
+  color: #3c3c3b;
+}
+
+.bold {
+  font-family: SFProDisplayBold;
+}

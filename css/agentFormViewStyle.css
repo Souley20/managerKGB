@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "SFProDisplayThin";
+  src: url("../assets/fonts/SF-Pro-Display-Thin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayRegular";
+  src: url("../assets/fonts/SF-Pro-Display-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url("../assets/fonts/SF-Pro-Display-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayBlack";
+  src: url("../assets/fonts/SF-Pro-Display-Black.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainWrapper {
+  width: 1400px;
+  height: 787.5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+#navContent {
+  padding: 20px;
+  text-align: end;
+}
+
+#navContent a img {
+  width: 40px;
+}
+
+#mainContainer {
+  text-align: center;
+}
+
+#mainContainer p {
+  font-family: SFProDisplayRegular;
+  font-size: 24px;
+  color: #3c3c3c;
+}
+
+#mainContent {
+  margin-top: 91px;
+}
+
+#formMessage {
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #e3a6a6;
+}
+
+#formMessage p {
+  padding: 15px 10px 14px 10px;
+  text-align: start;
+  font-family: SFProDisplayRegular;
+  font-size: 18px;
+  color: white;
+}
+
+#mainContent h2 {
+  font-family: SFProDisplayBlack;
+  font-size: 32px;
+  color: #3c3c3c;
+  margin-bottom: 50px;
+}
+
+#agentForm {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#agentForm input,
+#agentForm select {
+  border: none;
+  padding: 13px 10px;
+  font-family: SFProDisplayThin;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#dateOfBirthContainer {
+  width: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+#dateOfBirthContainer label {
+  font-family: SFProDisplayBold;
+  font-size: 20px;
+}
+
+#agentForm input[type="date"] {
+  width: 400px;
+  margin: inherit;
+  padding: 11px 10px;
+}
+
+#agentForm select {
+  height: 50px;
+  width: 620px;
+}
+
+#agentForm select:first-of-type {
+  margin-top: 20px;
+}
+
+#agentForm select:last-of-type {
+  margin-bottom: 91px;
+}
+
+#agentForm input[type="submit"] {
+  width: 250px;
+  background-color: #ffb527;
+  font-family: SFProDisplayBold;
+  margin: 0 auto;
+}

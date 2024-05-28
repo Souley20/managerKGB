@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url("../assets/fonts/SF-Pro-Display-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplayBlack";
+  src: url("../assets/fonts/SF-Pro-Display-Black.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainWrapper {
+  width: 1400px;
+  height: 787.5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+}
+
+#navContent {
+  padding: 20px;
+  text-align: end;
+}
+
+#navContent a img {
+  width: 32px;
+}
+
+#mainContainer {
+  margin: 0 20px;
+  height: 695.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  width: 420px;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+.menuNumberContent {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuNumberContent p {
+  font-family: SFProDisplayBlack;
+  font-size: 125px;
+  color: #f0f0f0;
+}
+
+.menuActionContainer {
+  width: 60%;
+}
+
+.menuActionContainer p {
+  font-family: SFProDisplayBold;
+  font-size: 26px;
+  color: #3c3c3b;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menuActionButton {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.menuActionButton p {
+  font-size: 14px;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.menuActionButton p:first-child {
+  background-color: #ffb527;
+}
+
+.menuActionButton p:last-child {
+  background-color: #3c3c3b;
+}
+
+.menuActionButton p a {
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+.menuActionButton p:first-child a {
+  color: #3c3c3b;
+}
+
+.menuActionButton p:last-child a {
+  color: white;
+}
