@@ -33,22 +33,18 @@
             </div>
         </div>
         <!-- mainContainer block end -->
-    </div><br/><br/>
+    </div>
+    <!-- mainWrapper block end -->
+</body>
+
     <!-- footerContainer block start -->    
-    <footer class="bg-dark text-white text-center footer" id="footerContent">	
+<footer class="bg-dark text-white text-center footer" id="footerContent">	
 	<div class="col-12 col-lg-4">
-		<div class="bg-dark text-white text-center wrapperBloc">
-
-			<div class="miniWrapper reveal fade-bottomOne" "col-6 col-lg-4">				
-				<div class="direction" "col-6 col-lg-4">
-					<a href="">Contactez-nous</a><br/>		
-					<a href="">Mention legal</a><br/>
-					<a href="">Politique de confidentialité</a>					
-				</div>
-			</div>				
-			</div>
+        <div class="col-6 col-lg-4">
+            <a href="">Contactez-nous</a><br/>		
+			<a href="">Mention legal</a><br/>
+			<a href="">Politique de confidentialité</a>					
 		</div>
-
 		<div class="line" "col-6 col-lg-4">
 			<p>© Manager KGB / All Rights Reserved</p>
 			<div class="social" "col-6 col-lg-4">
@@ -70,7 +66,5 @@
 		</div>
 	</div>
 </footer>
-<!-- mainWrapper block end -->
-</body>
 
 </html>
